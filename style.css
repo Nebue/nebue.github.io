@@ -44,7 +44,7 @@
     cursor: pointer;
     border-radius: 70%;
   position: fixed;
-    bottom: 700px;
+    bottom: 680px;
     width: 60px;
 
 }
@@ -57,6 +57,8 @@
 .dropdown {
     position: relative;
     display: inline-block;
+    background-image: url("pijl.png");
+    background-color: lightblue;
 
     
 
@@ -85,7 +87,7 @@
 .show{
 position: fixed;
  display:block;
-  bottom: 435px;
+  bottom: 420px;
   z-index: 1;
 }
 
@@ -138,7 +140,7 @@ main{
     border-color: white;
     border-width: 5px;
     position: relative;
-    top: 130px;
+    top: 117px;
     height: 15px;
     margin: auto;
   
@@ -176,7 +178,7 @@ main{
     border-color: white;
     border-width: 5px;
     position: relative;
-    top: 720px;
+    top: 708px;
     height: 15px;
     margin: auto;
   
