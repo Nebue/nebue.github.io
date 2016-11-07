@@ -283,4 +283,9 @@ font-style: normal;
     margin-top: 150px;
 }
 
-
+@media screen and (max-width: 1020px) and (min-width: 420px)
+{
+	body {
+		background-image: url("Phone-Wallpaper-Fantastic-Img-In-High-Definition-18I.jpg");
+	}
+}
