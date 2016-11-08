@@ -44,10 +44,11 @@
     font-size: 35px;
     border: none;
     cursor: pointer;
-    border-radius: 70%;
-  position: absolute;
-    bottom: 520px;
+    border-radius: 50%;
     width: 60px;
+    position: fixed;
+    bottom:690px;
+
 
 }
 
@@ -59,8 +60,10 @@
 .dropdown {
     position: relative;
     display: inline-block;
-    background-image: url("pijl.png");
-    background-color: lightblue;
+    border-radius: 50%;
+    
+   
+    
 
     
 
