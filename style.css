@@ -50,6 +50,7 @@
    background-position: center;
    background-size: 100px;
    background-repeat: no-repeat;
+   margin-top: 0px;
 
 
 
@@ -170,7 +171,7 @@ main{
     border-style: solid;
     border-color: white;
     border-width: 5px;
-    position: relative;
+
     top: 708px;
     height: 15px;
     margin: auto;
