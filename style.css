@@ -46,8 +46,8 @@
     cursor: pointer;
     border-radius: 50%;
     width: 60px;
-    position: fixed;
-    bottom:690px;
+    position: absolute;
+    bottom:545px;
 
 
 }
