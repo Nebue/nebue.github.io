@@ -38,16 +38,20 @@
 
 
 .dropbtn {
-    background-color: #87CEEB;
+    background-color: lightblue;
     color: white;
-    padding: 10px;
-    font-size: 35px;
-    border: none;
+    font-size: 100px;
+   border: none;
     cursor: pointer;
-    border-radius: 50%;
-    width: 60px;
-    position: absolute;
-    bottom:545px;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    background-image: url("pijl.png");
+   background-position: center;
+   background-size: 100px;
+   background-repeat: no-repeat;
+
+
 
 
 }
@@ -60,13 +64,7 @@
 .dropdown {
     position: relative;
     display: inline-block;
-    border-radius: 50%;
-    
-   
-    
-
-    
-
+  
 }
 
 
@@ -159,16 +157,6 @@ main{
 	text-align: center;
 	margin: auto;
 }
-
-
-
-
-
-
-
-
-
-
 
 #copytext2{
 	font-size: 13px;
