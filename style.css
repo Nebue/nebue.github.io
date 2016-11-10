@@ -25,7 +25,7 @@
     left: 150px;
     height: 200px;
     margin: auto;
-    margin-top: 250px;
+    
     border-width: 5px;
   
 
@@ -44,13 +44,13 @@
    border: none;
     cursor: pointer;
     border-radius: 100%;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     background-image: url("pijl.png");
    background-position: center;
-   background-size: 100px;
+   background-size: 70px;
    background-repeat: no-repeat;
-   margin-top: 0px;
+   margin-bottom: 100px;
 
 
 
@@ -144,7 +144,7 @@ main{
     border-color: white;
     border-width: 5px;
     position: relative;
-    top: 117px;
+    top: 208px;
     height: 15px;
     margin: auto;
   
@@ -165,16 +165,15 @@ main{
 	margin: auto;
 }
 
-.copyright2{
+.copyright2 {
 	background-color: rgba(176,176,176,0.8);
     width: 400px;
     border-style: solid;
     border-color: white;
     border-width: 5px;
-
-    top: 708px;
     height: 15px;
     margin: auto;
+    margin-top: 322px;
   
 }
 
@@ -189,7 +188,8 @@ main{
    padding: 10px;
     margin: auto;
     opacity: 0.89;
-    margin-top: 150px;
+    margin-top: 0px;
+
 }
 
 
@@ -219,7 +219,7 @@ a{
    padding: 10px;
     margin: auto;
     opacity: 0.89;
-    margin-top: 150px;
+    margin-top: 0px;
 }
 
 .lines{
@@ -241,7 +241,7 @@ font-style: normal;
    padding: 10px;
     margin: auto;
     opacity: 0.89;
-    margin-top: 150px;
+    
 
 }
 
@@ -256,7 +256,7 @@ font-style: normal;
    padding: 10px;
     margin: auto;
     opacity: 0.89;
-    margin-top: 150px;
+    
 
 }
 
@@ -272,7 +272,7 @@ font-style: normal;
    padding: 10px;
     margin: auto;
     opacity: 0.89;
-    margin-top: 150px;
+   
 }
 
 @media screen and (max-width: 1020px) and (min-width: 420px)
@@ -281,3 +281,72 @@ font-style: normal;
 		background-image: url("Phone-Wallpaper-Fantastic-Img-In-High-Definition-18I.jpg");
 	}
 }
+
+
+.copyright3{
+	background-color: rgba(176,176,176,0.8);
+    width: 400px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    height: 15px;
+    margin: auto;
+    margin-top: 225px;
+}
+
+.copyright4{
+	background-color: rgba(176,176,176,0.8);
+    width: 400px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    height: 15px;
+    margin: auto;
+    margin-top: 125px;
+}
+
+
+.copyright5{
+	background-color: rgba(176,176,176,0.8);
+    width: 400px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    height: 15px;
+    margin: auto;
+    margin-top: 225px;
+}
+
+.copyright6{
+	background-color: rgba(176,176,176,0.8);
+    width: 400px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    height: 15px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.insta{
+    border-radius: 100%;
+}
+
+.face{
+    border-radius: 100%;
+}
+
+#container{
+    min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto;
+}
+
+
+#chartdiv {
+    width   : 50%;
+    height  : 500px;
+    margin-left: 320px;
+    margin: auto;
+    margin-top: -70px;
+     
+}   
+

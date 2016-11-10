@@ -1,0 +1,15 @@
+body{
+	background-image: url("xX4vZbF.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+}
+
+
+html, body{height:auto;}
+
+body {
+background: url("xX4vZbF.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
