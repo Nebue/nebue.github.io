@@ -11,19 +11,28 @@
 
 
 
-<div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn"></i></script></button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="index.html"> <i class="fa fa-home" aria-hidden="true"> </i> Homepage</a>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html"> <i class="fa fa-home" aria-hidden="true"> </i> Homepage</a>
     <a href="doelen.html"><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Doelen</a>
     <a href="studies.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i></i> Studies</a>
     <a href="werkervaring.html"> <i class="fa fa-building" aria-hidden="true"></i> Werkervaring</a>
     <a href="kennis.html"><i class="fa fa-book" aria-hidden="true"></i> Kennis</a>
-    <a href="contact.html"> <i class="fa fa-phone-square" aria-hidden="true"></i>
- Contact</a>
-  </div>
-</div>	
+    <a href="contact.html"><i class="fa fa-phone-square" aria-hidden="true"></i> Contact</a>
+</div>
 
+
+<span id="menu"  onclick="openNav()">&#9776; Menu</span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 <div class="naam"><h1> Wie ben ik?</h1>
 <br>
 <br>
