@@ -89,10 +89,11 @@
 
 
 .show{
-position: fixed;
+position: absolute;
  display:block;
-  bottom: 420px;
+  top:70px;
   z-index: 1;
+  margin:auto;
 }
 
 p{
