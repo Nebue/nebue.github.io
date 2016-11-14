@@ -400,12 +400,10 @@ body {
 #menu{
     color:white;
   font-size: 31px;
-  cursor:pointer
-
+  cursor:pointer;
+  position: absolute;
+  bottom: 700px;
 }
 
-#instgram{
-    position: absolute;
-    margin-top: 800px;
 
-}
+
