@@ -95,11 +95,11 @@ bottom: 10px;
 }
 
 
-.bnt1{
+#knop{
 	margin: auto;
 	position: absolute;
-	top: 100px;
-	left: 130px;
+	top: 550px;
+	left: 630px;
 	
 }
 
@@ -119,6 +119,8 @@ bottom: 10px;
   width: 190px;
   font-size: 20px;
 }
+
+
 .btn1:after {
   content: "";
   position: absolute;
@@ -138,6 +140,7 @@ bottom: 10px;
   transition: transform .3s;
   transition: transform .3s, -webkit-transform .3s;
 }
+
 .btn1:hover::after {
   -webkit-transform: translateY(10%) translateX(-25px) rotate(-45deg);
           transform: translateY(10%) translateX(-25px) rotate(-45deg);
