@@ -4,22 +4,22 @@ var chart = AmCharts.makeChart("chartdiv",
     "theme": "dark",
     "dataProvider": [{
         "name": "Word",
-        "points": 100,
+        "points": 99,
         "color": "#7F8DA9",
         "bullet": "1478786649_Word_15.png"
     }, {
         "name": "Sublimetext",
-        "points": 60,
+        "points": 75,
         "color": "#FEC514",
         "bullet": "sublime_text_icon_2181.png"
     }, {
-        "name": "HTML",
-        "points": 80,
+        "name": "HTML&CSS",
+        "points": 70,
         "color": "#DB4C3C",
         "bullet": "1478786051_browser-html-coding.png"
     }, {
         "name": "Javascript",
-        "points": 10,
+        "points": 30,
         "color": "  #32CD32",
         "bullet": "1478786174_code-programming-javascript-software-develop-command-language.png"
     }],
@@ -30,9 +30,9 @@ var chart = AmCharts.makeChart("chartdiv",
         "dashLength": 4,
         "position": "left"
     }],
-    "startDuration": 1,
+    "startDuration": 2.5,
     "graphs": [{
-        "balloonText": "<span style='font-size:13px;'>[[category]]: <b>[[value]]</b></span>",
+        "balloonText": "<span style='font-size:15px;'>[[category]]: <b>[[value]]</b></span>",
         "bulletOffset": 10,
         "bulletSize": 52,
         "colorField": "color",
@@ -43,7 +43,7 @@ var chart = AmCharts.makeChart("chartdiv",
         "type": "column",
         "valueField": "points"
     }],
-    "marginTop": 100,
+    "marginTop": 50,
     "marginRight": 0,
     "marginLeft": 0,
     "marginBottom": 0,

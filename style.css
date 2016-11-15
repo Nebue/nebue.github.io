@@ -332,10 +332,14 @@ font-style: normal;
 
 .insta{
     border-radius: 100%;
+    margin: 20px;
+
+
 }
 
 .face{
     border-radius: 100%;
+   margin: 20px;
 }
 
 #container{
@@ -352,7 +356,12 @@ font-style: normal;
      
 }   
 
+.email{
+    border-radius: 130%;
+   margin: 20px;
 
+
+}
 
 body {
     font-family: "Lato", sans-serif;
@@ -407,3 +416,11 @@ body {
 
 
 
+#embed-map-canvas{
+height:100%; 
+width:100%;
+max-width:100%;
+margin:auto;
+margin-left: 400px;
+
+}
