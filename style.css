@@ -3,10 +3,11 @@
     body {
        background-image: url("Lake_Louise_uhd.jpg");
         font-family: sans-serif;
-        background-size: 1890px 980px;
+        background-size: 1890px 2000px;
         background-repeat: no-repeat;
         position: static;
         margin-top:130px;
+        
 
 
 }
@@ -206,6 +207,7 @@ a{
 #h1text{
 	color: white;
 	margin: auto;
+   text-shadow: 2px 2px black;
 	
 	text-align: center;
 
