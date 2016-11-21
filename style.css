@@ -117,7 +117,7 @@ h1{
 .persoonlijk{
 
     background-size: 320px;
-    background-color: rgba(176,176,176,0.4);
+    background-color: rgba(176,176,176,0.6);
     width: 550px;
     border-style: solid;
     border-color: white;
@@ -133,6 +133,7 @@ h1{
 	color: black;
 	font-style: normal;
 	margin: auto;
+
 }
 
 main{
@@ -176,7 +177,7 @@ main{
     border-width: 5px;
     height: 15px;
     margin: auto;
-    margin-top: 322px;
+    margin-top: 345px;
   
 }
 
@@ -198,6 +199,11 @@ main{
 
 #text2{
 	margin: auto;
+    font-style: normal;
+}
+
+#werkervaringtext{
+    font-style: normal;
 }
 
 a{
@@ -212,6 +218,8 @@ a{
 	text-align: center;
 
 }
+
+
 
 .div3{
 	background-color: rgba(176,176,176,0.8);
